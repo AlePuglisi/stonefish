@@ -72,5 +72,7 @@ I substitute the `git clone "https://github.com/patrykcieslak/stonefish.git"` co
 This problem compromise the visualization of sensors output on the screen, seeing white screen instead. <br/>
 I found the solution to this bug on [Issue#65](https://github.com/patrykcieslak/stonefish/issues/65#issue-3390696136) of the official stonefish repo. A PR is already open.
 
-
+## Troubleshooting
+List of errors encountered during the installation process and running tests. <br/>
+Problems with uncorrect library installation, linker dependencies, CMakeLists, and nvidia-driver compatibility.
 
