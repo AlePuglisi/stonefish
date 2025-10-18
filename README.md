@@ -20,6 +20,10 @@ Install official manufacturer drivers for your graphics card before using _Stone
 The software is developed and tested on *Linux Ubuntu*. It should work on any Unix based platform. A version for Windows is not available at this time. MacOS is not supported due to its lack of support for OpenGL 4.3.
 
 ### Installation
+
+>[!TIP]
+> Refer to [INSTALLATION_TROUBLESHOOTING](https://github.com/AlePuglisi/stonefish/blob/master/INSTALLATION_TROUBLESHOOTING.md) readme for a dummy step by step process with commands.
+
 1. Dependencies
     * **OpenGL Mathematics library** (libglm-dev, version >= 0.9.9.0)
     * **SDL2 library** (libsdl2-dev)
