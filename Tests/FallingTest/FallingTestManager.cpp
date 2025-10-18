@@ -86,7 +86,9 @@ void FallingTestManager::BuildScenario()
     //---Robot---
     sf::BodyPhysicsSettings phy;
     phy.mode = sf::BodyPhysicsMode::SURFACE;
-    phy.collisions = true;
+
+    sf::Sphere* sph = new sf::Sphere("Sphere", phy, 0.1, sf::I4(), "Aluminium",  "red");
+    AddSolidEntity(sph, sf::Transform(sf::IQ(), sf::Vector3(0.0,0.0,-1.0)));
     /*
     //Mechanical parts
     sf::Sphere* obj = new sf::Sphere("Base", phy, 0.1, sf::I4(), "Steel", "Green");
