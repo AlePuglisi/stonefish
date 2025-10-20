@@ -9,7 +9,10 @@ I preffer to report all the installation steps for future usage (even the most o
 
 Because of the previous Nvidia driver issues, I installed the Ubuntu OS without third party drivers, and then add the drivers manually following this [tutorial by Nvidia](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/index.html#) 
 
-This steps works for me in an `Ubnutu 24.04` OS, with a `6.14.0-33-generic` linux kernel.
+This steps works for me in an `Ubnutu 24.04` OS, with a `6.14.0-33-generic` linux kernel. <br/>
+
+( Dell PRO Max 16 Laptop, NVIDIA RTX PRO 500 Blackwell Generation Laptop GPU, Intel Core Ultra 9, <br/> 
+x86_64 (AMD 64bit), in an `Ubnutu 24.04` OS partition, with a `6.14.0-33-generic` linux kernel)
 
 ### First, building tools (Dummy reminder N.1)
 
