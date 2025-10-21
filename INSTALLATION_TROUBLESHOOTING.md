@@ -54,7 +54,7 @@ sudo make install
 
 ### FreeType
 ```
-sudo apt install ibfreetype6-dev
+sudo apt install libfreetype6-dev
 ```
 Don't worry if `libfreetype-dev` is installed instead of `libfreetype6-dev`
 
