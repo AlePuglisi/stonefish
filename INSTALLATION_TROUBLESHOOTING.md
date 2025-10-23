@@ -62,7 +62,7 @@ Don't worry if `libfreetype-dev` is installed instead of `libfreetype6-dev`
 ### Finally, Stonefish
 From official [Stonefish documentation](https://stonefish.readthedocs.io/en/latest/install.html)
 ```
-git clone https://github.com/AlePuglisi/stonefish.git
+git clone https://github.com/patrykcieslak/stonefish.git
 cd stonefish
 mkdir build
 cd build
@@ -71,11 +71,23 @@ make -j$(nproc)
 sudo make install
 ```
 
-I substitute the `git clone "https://github.com/patrykcieslak/stonefish.git"` command with my own repo, because of some bugs related to the shaders that I have on my machine.<br/>
-This problem compromise the visualization of sensors output on the screen, seeing white screen instead. <br/>
+## Troubleshooting
+
+List of problems encountered during the installation process and running tests. <br/>
+Problems with uncorrect library installation, linker dependencies, CMakeLists, and nvidia-driver compatibility.
+
+### White Sensors Screen
+
+This is related to the usage of the GPU with the **Mesa Library**. </br>
+I previously encountered this issue, but after setting up properly 
+- Nvidia Driver 
+- OpenGL usage of the Nvidia GPU
+  
+This code changes were no more required. 
+
+This problem compromise the visualization of sensors output on the Stonefish GUI, seeing white screen instead. <br/>
 I found the solution to this bug on [Issue#65](https://github.com/patrykcieslak/stonefish/issues/65#issue-3390696136) of the official stonefish repo. A PR is already open.
 
-## Troubleshooting
-List of errors encountered during the installation process and running tests. <br/>
-Problems with uncorrect library installation, linker dependencies, CMakeLists, and nvidia-driver compatibility.
+
+
 
